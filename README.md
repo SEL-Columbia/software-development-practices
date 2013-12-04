@@ -1,7 +1,14 @@
 StyleGuides
 ===========
 
-Style guides and coding standards for [Sustainable Engineering Lab](http://modilabs.org) (formerly _Modi Research Group_) developers.
+Style guides and coding standards for [Sustainable Engineering Lab](http://modilabs.org) (SEL, formerly _Modi Research Group_) developers.
+
+[Github Usage](github-usage)
+------------
+
+Our recommended best practices for coordinating source code changes on the [SEL-Columbia](https://github.com/SEL-Columbia) github account.
+
+See the [README.md](github-usage/README.md) in the [Github Usage](github-usage) folder in this repo for specifics and examples.
 
 
 [Python](Python)
