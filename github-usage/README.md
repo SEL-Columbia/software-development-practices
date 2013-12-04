@@ -116,9 +116,10 @@ Next, make sure to **checkout from origin** using the <tt>-t</tt> switch with th
 
 ```
 $ git checkout -t origin/<new-branch-name>
+$ git pull origin <new-branch-name>
 ```
 
-Not using the <tt>-t</tt> switch may leave your local repository in an incomplete state.
+Not using the <tt>-t</tt> switch before the branch origin pull may leave your local repository in an incomplete state.
 
 ### 3. Accepting and Merging a Pull Request
 
