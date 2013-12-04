@@ -1,11 +1,19 @@
 Github Usage
 ============
 
-The Sustainable Engineering Lab (SEL) uses the [shared repository model](https://help.github.com/articles/#shared-repository-model) for coordinating changes and pull requests.
+The Sustainable Engineering Lab (SEL) uses the [shared repository model](https://help.github.com/articles/#shared-repository-model) for coordinating changes and pull requests. The workflow we follow is the [Github Flow](http://scottchacon.com/2011/08/31/github-flow.html) workflow.
 
-Every developer affiliated with SEL is granted push access to each public repository in the [SEL-Columbia github account](https://github.com/SEL-Columbia) and topic branches are used to isolate changes.
+Every developer affiliated with SEL is granted push access to each public repository in the [SEL-Columbia github account](https://github.com/SEL-Columbia) and topic branches are used to isolate changes. Please read the 
 
 ![Alt text](http://i.imgur.com/8uZjXxm.png "The shared repository model")
+
+Principles of github-flow
+----------
+1. Master should always be deployable.
+2. Create descriptive branches off of master, push to them often.
+3. Create a pull request when your code is ready to be merged to master.
+4. Generally, someone else should merge your code, or give you a +1 before you do.
+
 
 Contributing to a Repository
 ----------------------------
@@ -127,8 +135,18 @@ Run any tests as needed, and if the branch is good, [accept and merge the pull r
 
 Now you can deploy the changes to your production environment from the github repository.
 
+### 4. Pulling changes that have been made on a branch:
+
+Sometimes, someone will change a branch after you last pulled it, you will need to update it. Say that Jill wrote some code, created a pull request, you gave Jill some feedback, she made some more changes, and now you want to see her latest changes to test it / check it. If you had set up a branch to track, as in #2 above, you simply have to pull the remote branch to see the changes.
+
+```
+$ git pull origin <existing-branch-name>
+```
+
+
 References & Acknowledgements
 -----------------------------
 
 * [Github Help: Using Pull Requests](https://help.github.com/articles/using-pull-requests)
 * [Version Control the Git Way](http://media.pragprog.com/titles/tsgit/chap-002-extract.html) 
+* [Github Flow](http://scottchacon.com/2011/08/31/github-flow.html)
