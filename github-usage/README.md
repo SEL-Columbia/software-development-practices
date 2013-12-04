@@ -75,6 +75,30 @@ $ git branch
   master
 ```
 
+* Made the documentation changes, then committed them to the <tt>github_pull_requests</tt> branch:
+
+    ```
+$ git commit -am "Added a github-usage section to the StyleGuides"
+[github_pull_requests b1242b6] Added a github-usage section to the StyleGuides
+ 2 files changed, 117 insertions(+), 1 deletion(-)
+ create mode 100644 github-usage/README.md
+```
+
+* Pushed the branch to the origin:
+
+    ```
+$ git push origin github_pull_requests
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 2.27 KiB | 0 bytes/s, done.
+Total 5 (delta 1), reused 0 (delta 0)
+To https://github.com/SEL-Columbia/StyleGuides.git
+ * [new branch]      github_pull_requests -> github_pull_requests
+```	
+
+* Finally, logged in to [github.com](https://github.com) and [issued a pull request](https://help.github.com/articles/using-pull-requests#initiating-the-pull-request) through the web interface.
+
 Approving Contributions
 -----------------------
 
