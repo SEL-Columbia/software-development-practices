@@ -143,6 +143,12 @@ Sometimes, someone will change a branch after you last pulled it, you will need 
 $ git pull origin <existing-branch-name>
 ```
 
+Alternatively, the master branch may have gotten ahead of your branch, so you need to <i>pull the master into your branch</i> to avoid any merge conflicts going forward:
+
+```
+$ git checkout <new-branch-name> && git pull origin master && git push origin <new-branch-name>
+```
+
 
 References & Acknowledgements
 -----------------------------
@@ -150,3 +156,4 @@ References & Acknowledgements
 * [Github Help: Using Pull Requests](https://help.github.com/articles/using-pull-requests)
 * [Version Control the Git Way](http://media.pragprog.com/titles/tsgit/chap-002-extract.html) 
 * [Github Flow](http://scottchacon.com/2011/08/31/github-flow.html)
+* [Git Branching - Basic Branching and Merging](http://www.git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging)
