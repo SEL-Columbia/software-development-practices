@@ -8,7 +8,7 @@ Style guides and coding standards for [Sustainable Engineering Lab](http://modil
 
 Our recommended best practices for coordinating source code changes on the [SEL-Columbia](https://github.com/SEL-Columbia) github account.
 
-See the [README.md](github-usage/README.md) in the [Github Usage](github-usage) folder in this repo for specifics and examples.
+See the [README.md](github-usage/README.md) in the [github-usage](github-usage) folder in this repo for specifics and examples.
 
 
 [Python](Python)
