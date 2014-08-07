@@ -149,6 +149,25 @@ Alternatively, the master branch may have gotten ahead of your branch, so you ne
 $ git checkout <new-branch-name> && git pull origin master && git push origin <new-branch-name>
 ```
 
+Reverting to a Specific Commit
+------------------------------
+
+When mistakes are made, it is possible to go back to a previous version, using the [SHA-1 checksum code](http://git-scm.com/book/en/Getting-Started-Git-Basics#Git-Has-Integrity) git provides for each commit.
+
+Use the checksum of the prior commit like this:
+
+```sh 
+git revert --no-commit [checksum]..HEAD
+git commit
+```
+
+As [explained here](http://stackoverflow.com/a/21718540):
+
+_This will revert everything from the HEAD back to the commit hash, meaning it will recreate that commit state in the working tree as if every commit since had been walked back. You can then commit the current tree, and it will create a brand new commit essentially equivalent to the commit you "reverted" to._
+
+_(The --no-commit flag lets git revert all the commits at once- otherwise you'll be prompted for a message for each commit in the range, littering your history with unnecessary new commits.)_
+
+*This is a __safe and easy way to rollback to a previous state.__ No history is destroyed, so it can be used for commits that have already been made public.*
 
 References & Acknowledgements
 -----------------------------
