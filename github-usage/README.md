@@ -1,7 +1,7 @@
 Github Usage
 ============
 
-The Sustainable Engineering Lab (SEL) uses the [shared repository model](https://help.github.com/articles/#shared-repository-model) for coordinating changes and pull requests. The workflow we follow is the [Github Flow](http://scottchacon.com/2011/08/31/github-flow.html) workflow; please read this article since it may clarify many things to you--feel free to scroll down to the heading *Github Flow*.
+The Sustainable Engineering Lab (SEL) uses the [shared repository model](https://help.github.com/articles/#shared-repository-model) for coordinating changes and pull requests, following the [Github Flow](http://scottchacon.com/2011/08/31/github-flow.html) workflow, as described below.
 
 Every developer affiliated with SEL is granted push access to each public repository in the [SEL-Columbia github account](https://github.com/SEL-Columbia) and topic branches are used to isolate changes. 
 
