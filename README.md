@@ -15,6 +15,8 @@ See the [README.md](github-usage/README.md) in the [github-usage](github-usage) 
 ------
 We observe the [PEP 8 Style Guide](http://www.python.org/dev/peps/pep-0008/) for [python code](http://www.python.org/).
 
+When in doubt, fall back on the [Google Python Style Guide](http://google-styleguide.googlecode.com/svn/trunk/pyguide.html).  Of particular interest might be their detailed docstring guide, of which [this is a nice example](http://sphinxcontrib-napoleon.readthedocs.org/en/latest/example_google.html)
+
 The [pylint](http://pylint.org/) utility automatically checks code for compliance with PEP 8, and so a [bash utility](Python/generate_qc_makefile.sh) has been provided which can run an entire set of python source code files from a given repo against it, and summarize the results in a markdown report file, while preserving the entire pylint report for each source code file. 
 
 See the [Python](Python) folder in this repo for more details.
