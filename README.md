@@ -19,6 +19,7 @@ The [pylint](http://pylint.org/) utility automatically checks code for complianc
 
 See the [Python](Python) folder in this repo for more details.
 
-[Shell](bash)
+[Shell](shell)
+------
 
 We follow the [Google shell style guide](http://google-styleguide.googlecode.com/svn/trunk/shell.xml)
