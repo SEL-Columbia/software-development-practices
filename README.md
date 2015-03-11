@@ -18,3 +18,7 @@ We observe the [PEP 8 Style Guide](http://www.python.org/dev/peps/pep-0008/) for
 The [pylint](http://pylint.org/) utility automatically checks code for compliance with PEP 8, and so a [bash utility](Python/generate_qc_makefile.sh) has been provided which can run an entire set of python source code files from a given repo against it, and summarize the results in a markdown report file, while preserving the entire pylint report for each source code file. 
 
 See the [Python](Python) folder in this repo for more details.
+
+[Shell](bash)
+
+We follow the [Google shell style guide](http://google-styleguide.googlecode.com/svn/trunk/shell.xml)
