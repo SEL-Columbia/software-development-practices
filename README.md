@@ -32,7 +32,7 @@ We observe the [PEP 8 Style Guide](http://www.python.org/dev/peps/pep-0008/) for
 
 When in doubt, fall back on the [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html).  Of particular interest might be their detailed docstring guide, of which [this is a nice example](http://sphinxcontrib-napoleon.readthedocs.org/en/latest/example_google.html)
 
-The [flake8](https://pypi.python.org/pypi/flake8) and [pylint](http://pylint.org/) utilities automatically checks code for compliance with PEP 8, and so a [bash utility](Python/generate_qc_makefile.sh) has been provided which can run an entire set of python source code files from a given repo against it, and summarize the results in a markdown report file, while preserving the entire pylint report for each source code file.
+The [flake8](https://pypi.python.org/pypi/flake8) and [pylint](http://pylint.org/) utilities automatically check code for compliance with PEP 8, and so a [bash utility](Python/generate_qc_makefile.sh) has been provided which can run an entire set of python source code files from a given repo against it, and summarize the results in a markdown report file, while preserving the entire pylint report for each source code file.
 
 If you use Vim, you can also use the [syntastic](https://github.com/scrooloose/syntastic) plugin to run flake8 automatically after each save.
 
