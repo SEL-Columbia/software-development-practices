@@ -9,7 +9,7 @@ Best practices for software develompent at the [Sustainable Engineering Lab](htt
 
 1.  At least 90% code test coverage and assurance that functionality works as advertised
 2.  Build automation such that pushes that break tests are detected.  [Travis](travis-ci.org) is the standard here
-3.  Code review and sign-off (with written feedback) by at least 1 other developer that the code is able to be maintained
+3.  Code review and sign-off (with written feedback in the form of github issue(s)) by at least 1 other developer that the code is able to be maintained
 4.  Documentation such that others can develop and deploy the project
 
 These guidelines are meant to ensure that code is kept simple and maintainable out of respect for current and future members of the lab.  Any projects that are out of compliance with these requirements must fulfill these before any new development is done.
