@@ -60,6 +60,6 @@ If you use Vim, you can also use the [syntastic](https://github.com/scrooloose/s
 
 See the [Python](Python) folder in this repo for more details.
 
-### [Shell](shell)
+### Shell
 
 We follow the [Google shell style guide](https://google.github.io/styleguide/shell.xml)
