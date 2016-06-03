@@ -8,8 +8,8 @@ Best practices for software develompent at the [Sustainable Engineering Lab](htt
 
 1.  At least 90% code test coverage and assurance that functionality works as advertised
 2.  Build automation such that pushes that break tests are detected.  [Travis](travis-ci.org) is the standard here.
-3.  Code review and sign-off (with written feedback in the form of github issue(s)) by at least 1 other developer that the code is able to be maintained.  Focus should be on highlighting the difficult to understand areas of the code.
-4.  Documentation such that others can develop and deploy the project
+3.  Code review and sign-off (with written feedback in the form of github issue(s)) by at least 1 other developer that the code is able to be maintained.
+4.  Documentation explaining the purpose, architecture, API (if applicable), deployment process and how to test the project
 
 These guidelines are meant to ensure that code is kept simple and maintainable out of respect for current and future members of the lab.  Any projects that are out of compliance with these requirements must fulfill these before any new development is done.
 
@@ -17,7 +17,16 @@ The following are also recommended:
 
 1.  Compliance with language specific guidelines (PEP8 for Python...)
 2.  Performance benchmarks
-3.  Security audit
+
+Aside from above, here are suggestions to check for in code reviews:
+
+1.  Correctness
+2.  Consistency (in patterns used, naming conventions, tests, etc)
+3.  Unnecessary complexity (see [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it))
+4.  Documentation on any necessary complexity
+5.  Duplicate code
+6.  Exception/Error handling
+7.  Security holes
 
 ### [Github Usage](github-usage)
 
